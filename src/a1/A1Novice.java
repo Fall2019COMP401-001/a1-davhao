@@ -37,7 +37,7 @@ public class A1Novice {
 				
 			}
 			
-			System.out.println(first.charAt(0) + ". " + last + ": " + custTotal);
+			System.out.println(first.charAt(0) + ". " + last + ": " + String.format ("%.2f", custTotal));
 		
 		}
 		
