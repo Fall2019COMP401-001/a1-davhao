@@ -75,7 +75,7 @@ public class A1Adept {
 			
 			double bigSpent = 0;
 			String bigName = null;
-			double smSpent = 0;
+			double smSpent = custTotal[0];
 			String smName = null;
 			double tot = 0;
 
@@ -87,8 +87,6 @@ public class A1Adept {
 					bigName = custName[k]; 
 					
 				}
-				
-				smSpent = bigSpent;
 				
 				if (custTotal[k] < smSpent) {
 					
