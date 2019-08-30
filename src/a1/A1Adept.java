@@ -81,14 +81,14 @@ public class A1Adept {
 
 			for (int k = 0; k < custTotal.length; k++) {
 				
-				if (custTotal[k] > bigSpent) {
+				if (custTotal[k] >= bigSpent) {
 					
 					bigSpent = custTotal[k];
 					bigName = custName[k]; 
 					
 				}
 				
-				if (custTotal[k] < smSpent) {
+				if (custTotal[k] <= smSpent) {
 					
 					smSpent = custTotal[k];
 					smName = custName[k];
